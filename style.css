@@ -1,0 +1,83 @@
+.welcome {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.buttons {
+    margin: 2px;
+    height: 70px;
+    width: 70px;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: rgb(50, 49, 49);
+    color: white;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+.container1 {
+    width: 310px;
+}
+.screen{
+    margin: 10px 0px;
+    height: 105px;
+    width: 290px;
+    border-radius: 35px;
+    border: 2px solid orangered;
+    font-size: 2.5rem;
+    background-color: black;
+    color: white;
+}
+.o{
+    width: 147px;
+    border-radius: 30px;
+}
+.orange{
+    background-color: orange;
+    color: #F5F5F4;
+}
+.gray{
+    background-color: #A0A0A0;
+    color: black;
+}
+.red{
+    background-color: #ff2a2a;
+    
+}
+.blue{
+background-color: rgb(255, 119, 0)
+}
+
+.whole{
+    border: 5px solid orangered;
+    border-radius: 100px;
+    width: 350px;
+    margin: 80px 0px;
+}
+.hover:hover{
+    background-color: gray;
+    font-size: 1.5rem;
+}
+.red:hover{
+    box-shadow: 0px 4px 4px rgb(129, 30, 30);
+    font-size: 1.3rem;
+    background-color: red;
+}
+.orange:hover{
+    background-color: rgb(255, 77, 0);
+}
